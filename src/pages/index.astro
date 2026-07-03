@@ -26,33 +26,33 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
 ---
 
 <LandingLayout
-  title="Astro Rocket — Astro 6 starter theme"
-  description="A production-ready Astro 6 starter with 12 beautiful themes, 57+ components, built-in i18n, dark mode and a fast, modern foundation to build anything on."
+  title="Kaunain Ahmad — Java Developer"
+  description="Java developer focused on reliable backend systems, enterprise debugging, and AI-assisted software development."
   image="/og-default.svg"
   includePersonSchema={true}
   includeProfessionalServiceSchema={true}
 >
   <!-- Hero -->
   <Hero layout="centered" size="xl" class="hero-dark-gradient" showScrollIndicator>
-    <Badge slot="badge" variant="brand" pill pulse class="dark:text-brand-200">Available for new projects</Badge>
+    <Badge slot="badge" variant="brand" pill pulse class="dark:text-brand-200">Java Developer | Insurance Domain | AI Learner</Badge>
 
     <h1 slot="title" class="!text-[clamp(2rem,11.2vw,3rem)] sm:!text-5xl md:!text-6xl lg:!text-7xl">
-      <span class="text-brand-600 dark:text-foreground [-webkit-text-fill-color:currentColor] whitespace-nowrap">Astro Rocket —</span><br />
-      <span class="text-brand-600 dark:text-foreground [-webkit-text-fill-color:currentColor]">Web Designer</span><br class="md:hidden" /><span class="text-brand-600 dark:text-foreground [-webkit-text-fill-color:currentColor]"> &amp; Developer</span>
+      <span class="text-brand-600 dark:text-foreground [-webkit-text-fill-color:currentColor] whitespace-nowrap">Kaunain Ahmad</span><br />
+      <span class="text-brand-600 dark:text-foreground [-webkit-text-fill-color:currentColor]">Builds reliable Java</span><br class="md:hidden" /><span class="text-brand-600 dark:text-foreground [-webkit-text-fill-color:currentColor]">backend systems</span>
     </h1>
 
     <p slot="description">
-      Astro 6 starter with 12 beautiful themes, 57+ components, dark mode and a fast, modern foundation to build anything on.
+      I build dependable Spring and Java applications, improve debugging workflows, and learn AI-assisted development with a practical, enterprise-minded approach.
     </p>
 
    <Fragment slot="actions">
-      <Button size="lg" href="https://github.com/hansmartensdev/Astro-Rocket">
-        Get it on GitHub
+      <Button size="lg" href="/projects">
+        View projects
         <Icon name="arrow-right" size="sm" />
       </Button>
-      <Button size="lg" variant="outline" href="/blog/astro-rocket-getting-started">
-        <Icon name="rocket" size="sm" />
-        Get started
+      <Button size="lg" variant="outline" href="/contact">
+        <Icon name="mail" size="sm" />
+        Contact me
         <Icon name="arrow-right" size="sm" />
       </Button>
     </Fragment>
@@ -69,7 +69,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
           </h2>
         </div>
         <p class="text-lg text-foreground-muted max-w-2xl mx-auto">
-          From concept to launch.
+          Focused on backend reliability, debugging clarity, and modern developer workflows.
         </p>
       </div>
 
@@ -81,9 +81,9 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
               <Icon name="layout" size="sm" />
             </div>
             <div class="flex-1 min-w-0">
-              <h3 class="text-base font-semibold text-foreground">Web Design</h3>
+              <h3 class="text-base font-semibold text-foreground">Java Backend Development</h3>
               <p class="text-sm text-foreground-muted leading-relaxed mt-1.5">
-                Thoughtful layouts that put your content first. Designed for clarity, balance, and the way people actually read on the web.
+                Building reliable backend services with Java, Spring, and a focus on maintainability, testing, and clean architecture.
               </p>
               <span class="inline-flex items-center gap-1 text-sm font-medium text-brand-500 mt-3 group-hover:gap-2 transition-all">
                 Learn more
@@ -100,9 +100,9 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
               <Icon name="code" size="sm" />
             </div>
             <div class="flex-1 min-w-0">
-              <h3 class="text-base font-semibold text-foreground">Web Development</h3>
+              <h3 class="text-base font-semibold text-foreground">Spring & Enterprise Debugging</h3>
               <p class="text-sm text-foreground-muted leading-relaxed mt-1.5">
-                Modern sites built with Astro and Tailwind. Lean, accessible, and ready to scale with your business — no template lock-in.
+                Improving debugging flow in complex applications through logs, tracing, breakpoints, and practical problem-solving.
               </p>
               <span class="inline-flex items-center gap-1 text-sm font-medium text-brand-500 mt-3 group-hover:gap-2 transition-all">
                 Learn more
@@ -119,9 +119,9 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
               <Icon name="zap" size="sm" />
             </div>
             <div class="flex-1 min-w-0">
-              <h3 class="text-base font-semibold text-foreground">SEO & Performance</h3>
+              <h3 class="text-base font-semibold text-foreground">Insurance Domain & AI Learning</h3>
               <p class="text-sm text-foreground-muted leading-relaxed mt-1.5">
-                Pages that load instantly and rank well from launch. Core Web Vitals, metadata, and structured data, done properly.
+                Applying domain understanding in insurance systems while steadily building AI-assisted workflows for developer productivity.
               </p>
               <span class="inline-flex items-center gap-1 text-sm font-medium text-brand-500 mt-3 group-hover:gap-2 transition-all">
                 Learn more
@@ -141,11 +141,11 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
         <div class="flex flex-col items-center gap-6">
           <Badge variant="brand" pill>Selected work</Badge>
           <h2 class="font-display text-3xl md:text-4xl font-bold text-foreground">
-            Projects I've built
+            Projects and ideas
           </h2>
         </div>
         <p class="text-lg text-foreground-muted max-w-2xl mx-auto">
-          A selection of recent work.
+          A mix of practical engineering work and focused learning projects.
         </p>
       </div>
 
@@ -187,7 +187,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
 
       <div class="text-center mt-4">
         <Button variant="outline" href="/projects">
-          View all projects
+          Explore the portfolio
           <Icon name="arrow-right" size="sm" />
         </Button>
       </div>
@@ -274,15 +274,15 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
           <div class="flex flex-col gap-6 mb-6">
             <Badge variant="brand" pill class="self-start">About me</Badge>
             <h2 class="font-display text-3xl md:text-4xl font-bold text-foreground">
-              Designer, developer,<br />
-              <span class="text-brand-500">and blogger.</span>
+              Developer, learner,<br />
+              <span class="text-brand-500">and systems thinker.</span>
             </h2>
           </div>
           <p class="text-lg text-foreground-muted leading-relaxed mb-4">
-           Sixteen years of hands-on experience{siteConfig.address?.city ? `, based in ${siteConfig.address.city}${siteConfig.address.country ? `, ${siteConfig.address.country}` : ''}` : ''} and available for clients worldwide. I build with Astro because it aligns with how I think about the web: lean, purposeful, and built to last.
+           I bring a practical backend focus to Java, Spring, and enterprise debugging, with a growing interest in AI-assisted development and modern developer productivity.
           </p>
           <p class="text-lg text-foreground-muted leading-relaxed mb-8">
-           On the blog, I share the ideas and decisions that shape my work.
+           I’m building a portfolio that reflects both hands-on engineering work and a clear path of continuous learning.
           </p>
            <Button variant="outline" href="/about" class="self-start">
             More about me
@@ -294,18 +294,18 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
           <div class="grid grid-cols-2 gap-3 flex-1 auto-rows-fr">
             <div class="bg-background-tertiary rounded-xl p-5 flex flex-col items-center justify-center text-center gap-2 border-t-2 border-brand-500/40 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-md hover:border-brand-500 cursor-default h-full">
               <Icon name="history" class="w-10 h-10 text-brand-500" />
-              <p class="text-sm font-semibold text-foreground">16 Years Experience</p>
+              <p class="text-sm font-semibold text-foreground">Java & Spring Focus</p>
             </div>
             <a href="https://astro.build" target="_blank" rel="noopener noreferrer" class="bg-background-tertiary rounded-xl p-5 flex flex-col items-center justify-center text-center gap-2 border-t-2 border-brand-500/40 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-md hover:border-brand-500 h-full">
               <svg class="w-10 h-10 text-brand-500" viewBox="0 0 1280 1280" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M815.039 94.6439C824.758 106.709 829.714 122.99 839.626 155.553L1056.17 866.901C976.107 825.368 889.072 795.413 797.281 779.252L656.29 302.798C653.983 295.002 646.822 289.654 638.693 289.654C630.542 289.654 623.368 295.03 621.08 302.853L481.795 779.011C389.579 795.1 302.146 825.109 221.741 866.793L439.347 155.388L439.348 155.388C449.291 122.882 454.262 106.629 463.982 94.5853C472.562 83.9531 483.723 75.6958 496.4 70.6002C510.76 64.8284 527.756 64.8284 561.749 64.8284H717.174C751.212 64.8284 768.23 64.8284 782.603 70.6123C795.292 75.7184 806.459 83.9923 815.039 94.6439Z" fill="currentColor"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M840.951 900.754C805.253 931.279 734.002 952.097 651.929 952.097C551.197 952.097 466.767 920.737 444.363 878.561C436.354 902.732 434.558 930.396 434.558 948.068C434.558 948.068 429.281 1034.84 489.636 1095.2C489.636 1063.86 515.042 1038.46 546.381 1038.46C600.097 1038.46 600.036 1085.32 599.987 1123.34C599.986 1124.48 599.984 1125.61 599.984 1126.73C599.984 1184.44 635.255 1233.91 685.416 1254.77C677.924 1239.36 673.721 1222.05 673.721 1203.77C673.721 1148.73 706.034 1128.23 743.588 1104.41L743.588 1104.41C773.469 1085.46 806.668 1064.41 829.548 1022.17C841.486 1000.13 848.265 974.893 848.265 948.068C848.265 931.573 845.702 915.676 840.951 900.754Z" fill="currentColor"/>
               </svg>
-              <p class="text-sm font-semibold text-foreground">Building with Astro</p>
+              <p class="text-sm font-semibold text-foreground">AI-assisted workflows</p>
             </a>
             <div class="bg-background-tertiary rounded-xl p-5 flex flex-col items-center justify-center text-center gap-2 border-t-2 border-brand-500/40 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-md hover:border-brand-500 cursor-default h-full">
               <Icon name="globe" class="w-10 h-10 text-brand-500" />
-              <p class="text-sm font-semibold text-foreground">Working worldwide</p>
+              <p class="text-sm font-semibold text-foreground">Enterprise mindset</p>
             </div>
             <div class="bg-background-tertiary rounded-xl p-5 flex flex-col items-center justify-center text-center gap-2 border-t-2 border-brand-500/40 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-md hover:border-brand-500 cursor-default h-full">
               <Icon name="map-pin" class="w-10 h-10 text-brand-500" />

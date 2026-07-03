@@ -120,13 +120,13 @@ export interface SiteConfig {
 }
 
 const siteConfig: SiteConfig = {
-  name: 'Astro Rocket',
+  name: 'Kaunain Ahmad',
   description:
-    'Astro Rocket — A production-ready Astro 6 starter with 12 beautiful themes, 57+ components, built-in i18n, dark mode and a fast, modern foundation to build anything on.',
-  url: SITE_URL || 'https://astrorocket.dev',
+    'Java developer focused on reliable backend systems, enterprise debugging, and AI-assisted software development.',
+  url: SITE_URL || 'https://kaunain.dev',
   ogImage: '/og-default.svg',
-  author: 'Hans Martens',
-  email: 'hello@hansmartens.dev',
+  author: 'Kaunain Ahmad',
+  email: 'hello@kaunain.dev',
   address: {
     street: '',
     city: 'Eindhoven',
@@ -135,14 +135,13 @@ const siteConfig: SiteConfig = {
     country: 'the Netherlands',
   },
   socialLinks: [
-    'https://github.com/hansmartensdev',
-    'https://x.com/hansmartens_dev',
-    'https://www.linkedin.com',
-    'https://bsky.app/profile/hansmartensdev.bsky.social',
+    'https://github.com/kaunain',
+    'https://www.linkedin.com/in/kaunain-ahmad',
+    'https://x.com/kaunainahmad',
   ],
   twitter: {
-    site: 'https://x.com/hansmartens_dev',
-    creator: '@hansmartens_dev',
+    site: 'https://x.com/kaunainahmad',
+    creator: '@kaunainahmad',
   },
   verification: {
     google: GOOGLE_SITE_VERIFICATION,
@@ -179,7 +178,7 @@ const siteConfig: SiteConfig = {
   i18n: i18nConfig,
   branding: {
     logo: {
-      alt: 'Astro Rocket',
+      alt: 'Kaunain Ahmad',
       imageUrl: '/favicon.svg',
     },
     favicon: {
