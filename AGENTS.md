@@ -12,6 +12,24 @@ make changes that fit rather than changes that merely work.
 
 ---
 
+## 🔄 Fork & Upstream Sync Rules (Preventing Code Breakages)
+
+This repository is a customized fork of `https://github.com/hansmartensdev/astro-rocket`.
+To ensure future upstream updates can be merged cleanly without breaking portfolio customizations:
+
+1. **Keep Custom Content & Config Isolated:**
+   - **Personal Profile & Metadata:** Modify [src/config/site.config.ts](file:///home/ahmad/NIDE/kaunain-portfolio/src/config/site.config.ts) and [src/config/branding.ts](file:///home/ahmad/NIDE/kaunain-portfolio/src/config/branding.ts).
+   - **Navigation & Links:** Modify [src/config/nav.config.ts](file:///home/ahmad/NIDE/kaunain-portfolio/src/config/nav.config.ts).
+   - **Copy & Text:** Use [src/i18n/en.json](file:///home/ahmad/NIDE/kaunain-portfolio/src/i18n/en.json) via `t()` instead of hard-coding strings directly in `.astro` templates.
+   - **Projects & Posts:** Place all custom portfolio projects in `src/content/projects/en/` and blog posts in `src/content/blog/en/`.
+2. **Avoid Modifying Core Engine Files Directly:**
+   - Core layouts (`src/layouts/`), shared helpers (`src/lib/`), and generic build scripts are maintained by upstream. Avoid bespoke edits in these files unless strictly necessary.
+3. **How to Sync Upstream Updates:**
+   - Run `pnpm sync:upstream` (or sync via GitHub UI followed by `git pull origin main`).
+   - Run `pnpm install` and `pnpm check` to verify compatibility.
+
+---
+
 ## The shape of the project
 
 ```
@@ -32,16 +50,13 @@ thing you are about to build already exists — it usually does.
 
 It is also the only source for the component count. Every number in the
 README and in the site copy is derived from it, and
-`src/__tests__/component-count.test.ts` fails if they drift apart. The figure
-used to be 57, taken from another theme's documentation; nothing checked it,
-so it survived in six places while the showcase page's own badge said 50+.
-Do not write a component count you have not counted from this file.
+`src/__tests__/component-count.test.ts` fails if they drift apart.
 
 ## Where to make a change
 
 | The request | The file |
 |---|---|
-| Site name, logo, social links, contact details | `src/config/site.config.ts` |
+| Site name, logo, social links, contact details | `src/config/site.config.ts` & `src/config/branding.ts` |
 | Navigation menus | `src/config/nav.config.ts` |
 | Languages | `src/config/i18n.config.ts` |
 | Cookie-consent behaviour | `src/config/consent.config.ts` |
@@ -53,16 +68,6 @@ Do not write a component count you have not counted from this file.
 **Page copy is not in the page files.** Text lives in `src/i18n/en.json` and is
 read through `t()`. Editing a heading usually means editing JSON, not `.astro`.
 If a page appears to have hard-coded text, check the locale file first.
-
-## Before a feature goes in
-
-**Two questions, before the merge and not after.** Does a general user of this
-theme need it? Does the theme need it? A working contribution answers neither,
-and a feature merged on the strength of working code arrives with a
-maintenance surface nobody agreed to carry.
-
-Answering no is not a rejection of the contributor. It is cheaper for everyone
-than a feature the theme carries and nobody maintains.
 
 ## Conventions worth keeping
 
@@ -79,20 +84,6 @@ than a feature the theme carries and nobody maintains.
   formats are generated at build time.
 - **Zero JavaScript unless it earns its place.** Astro ships none by default;
   reach for a `<script>` only when the interaction genuinely needs one.
-
-## Commit messages
-
-This repository is public. Its history is read by people deciding whether to
-trust the theme, so a commit message is part of the product.
-
-- **Describe the change and why the design is what it is.** A maintainer
-  reading this in a year needs the reasoning behind a decision, not an account
-  of how it was reached.
-- **Never narrate the process.** No first-person account of what was tried,
-  what was missed, or what was learned.
-- **Present tense, describing the code after the change.** "Scope demo content
-  to the demo deployment", not "Fixed the demo leaking".
-- **Keep the subject line to 72 characters, and prefer 50.**
 
 ## Commands
 
