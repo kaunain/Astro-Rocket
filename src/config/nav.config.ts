@@ -84,22 +84,17 @@ export interface ResolvedNavItem {
 }
 
 export const navItems: NavItem[] = [
-  { label: 'Home', href: '/', order: 0, labelKey: 'nav.items.home' },
   { label: 'Services', href: '/services', order: 1, labelKey: 'nav.items.services' },
   { label: 'Projects', href: '/projects', order: 2, labelKey: 'nav.items.projects' },
-  { label: 'Blog', href: '/blog', order: 3, labelKey: 'nav.items.blog' },
-  { label: 'About', href: '/about', order: 4, labelKey: 'nav.items.about' },
-  { label: 'Contact', href: '/contact', order: 5, labelKey: 'nav.items.contact' },
+  { label: 'About', href: '/about', order: 3, labelKey: 'nav.items.about' },
+  { label: 'Contact', href: '/contact', order: 4, labelKey: 'nav.items.contact' },
 ];
 
 export const footerNavItems: NavItem[] = [
-  { label: 'Home', href: '/', order: 0, labelKey: 'nav.items.home' },
   { label: 'Services', href: '/services', order: 1, labelKey: 'nav.items.services' },
   { label: 'Projects', href: '/projects', order: 2, labelKey: 'nav.items.projects' },
-  { label: 'Blog', href: '/blog', order: 3, labelKey: 'nav.items.blog' },
-  { label: 'About', href: '/about', order: 4, labelKey: 'nav.items.about' },
-  { label: 'Contact', href: '/contact', order: 5, labelKey: 'nav.items.contact' },
-  { label: 'GitHub', href: 'https://github.com/hansmartensdev/Astro-Rocket', order: 6, external: true },
+  { label: 'About', href: '/about', order: 3, labelKey: 'nav.items.about' },
+  { label: 'Contact', href: '/contact', order: 4, labelKey: 'nav.items.contact' },
 ];
 
 export const legalLinks: LegalLink[] = [];
@@ -127,10 +122,9 @@ export const footerLinkGroups: FooterLinkGroupConfig[] = [
     title: 'Got questions?',
     links: [
       { label: 'FAQ', href: '/about#faq' },
-      { label: 'Email', href: 'mailto:hello@hansmartens.dev' },
-      { label: 'GitHub', href: 'https://github.com/hansmartensdev/Astro-Rocket', external: true },
-      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/hansmartensdev', external: true },
-      { label: 'Bluesky', href: 'https://bsky.app/profile/hansmartensdev.bsky.social', external: true },
+      { label: 'Email', href: 'mailto:hello@kaunain.dev' },
+      { label: 'GitHub', href: 'https://github.com/kaunain', external: true },
+      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/kaunain-ahmad', external: true },
     ],
   },
 ];

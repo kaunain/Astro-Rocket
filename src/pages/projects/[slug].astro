@@ -1,20 +1,16 @@
 ---
 import ProjectLayout from '@/layouts/ProjectLayout.astro';
-import { render } from 'astro:content';
-import { assertNoSlugCollisions } from '@/lib/content-validation';
-import { getVisibleProjects, getRoutableProjects } from '@/lib/projects';
-import { defaultLocale } from '@/i18n';
+import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
-  // Fail the build early on content-integrity problems: two entries resolving
-  // to the same URL within a locale.
-  await assertNoSlugCollisions();
+  const visibleProjects = await getCollection('projects', ({ data }) => {
+    return import.meta.env.PROD ? data.draft !== true : true;
+  });
 
-  const visibleProjects = await getVisibleProjects(defaultLocale);
-  const routableProjects = await getRoutableProjects(defaultLocale);
+  const routableProjects = visibleProjects.filter((p) => !p.data.placeholder);
 
   return routableProjects.map((project) => ({
-    params: { slug: project.id.replace(new RegExp(`^${defaultLocale}/`), '') },
+    params: { slug: project.id.replace(/\.mdx?$/, '') },
     props: {
       project,
       related: visibleProjects
@@ -32,14 +28,18 @@ const { Content, headings } = await render(project);
 <ProjectLayout
   title={project.data.title}
   description={project.data.description}
+  year={project.data.year}
+  client={project.data.client}
+  role={project.data.role}
+  services={project.data.services}
   meta={project.data.meta}
   url={project.data.url}
   repo={project.data.repo}
+  tags={project.data.tags}
   image={project.data.image}
   imageAlt={project.data.imageAlt}
   gallery={project.data.gallery}
-  tags={project.data.tags}
-  slug={project.id}
+  slug={project.id.replace(/\.mdx?$/, '')}
   related={related}
   headings={headings}
   toc={project.data.toc}

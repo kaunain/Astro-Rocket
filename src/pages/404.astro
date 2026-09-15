@@ -8,59 +8,56 @@ import Badge from '@/components/ui/data-display/Badge/Badge.astro';
 import Card from '@/components/ui/data-display/Card/Card.astro';
 import Button from '@/components/ui/form/Button/Button.astro';
 import { Hero } from '@/components/hero';
-import { t, getLocaleFromPath } from '@/i18n';
-
-const locale = getLocaleFromPath(Astro.url.pathname);
 
 const recoveryLinks = [
   {
     icon: 'layers',
-    title: t('projects.title', locale),
-    description: t('errors.projectsDesc', locale),
+    title: 'Projects',
+    description: 'Selected work and case studies.',
     href: '/projects',
   },
   {
     icon: 'book',
-    title: t('blog.title', locale),
-    description: t('errors.blogDesc', locale),
+    title: 'Blog',
+    description: 'Notes on design, code, and the craft.',
     href: '/blog',
   },
   {
     icon: 'mail',
-    title: t('errors.contactTitle', locale),
-    description: t('errors.contactDesc', locale),
+    title: 'Contact',
+    description: 'Start a conversation about your project.',
     href: '/contact',
   },
 ];
 ---
 
 <PageLayout
-  title={t('errors.metaTitle', locale)}
-  description={t('errors.metaDescription', locale)}
+  title="Page not found — Astro Rocket"
+  description="This page has moved, been removed, or never existed in the first place."
   noindex
   eagerReveal
 >
   <Hero layout="centered" size="sm">
     <Badge slot="badge" variant="brand" pill>
       <Icon name="compass" size="sm" />
-      {t('errors.badge', locale)}
+      404 — page not found
     </Badge>
 
     <h1 slot="title">
-      {t('errors.titleLead', locale)} <span class="text-brand-500">{t('errors.titleHighlight', locale)}</span>
+      Page not <span class="text-brand-500">found.</span>
     </h1>
 
     <p slot="description">
-      {t('errors.description', locale)}
+      This page has moved, been removed, or never existed in the first place. Let's get you back on track.
     </p>
 
     <div slot="actions" class="flex flex-col sm:flex-row items-center justify-center gap-4">
       <Button href="/" size="lg">
         <Icon name="arrow-left" size="sm" />
-        {t('errors.backHome', locale)}
+        Back to home
       </Button>
-      <Button href="/blog" variant="brand-outline" size="lg">
-        {t('errors.browseBlog', locale)}
+      <Button href="/blog" variant="outline" size="lg">
+        Browse the blog
         <Icon name="arrow-right" size="sm" />
       </Button>
     </div>
@@ -71,7 +68,7 @@ const recoveryLinks = [
     <div class="mx-auto max-w-6xl px-6">
       <div class="mb-8 text-center" data-reveal>
         <h2 class="font-display text-3xl md:text-4xl font-bold text-foreground">
-          {t('errors.tryInstead', locale)}
+          Try one of these instead
         </h2>
       </div>
 

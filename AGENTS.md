@@ -5,6 +5,13 @@ build **their** website on top of it, not to develop the theme itself. This file
 tells you where everything lives and which conventions to follow, so you can
 make changes that fit rather than changes that merely work.
 
+---
+
+## ⚠️ Critical Rule for AI Agents
+- **NEVER RUN `npm run dev` OR `pnpm run dev`**: The user runs the dev server independently. Agents must not start dev servers or blocking background processes for running the dev environment.
+
+---
+
 ## The shape of the project
 
 ```
@@ -82,38 +89,10 @@ trust the theme, so a commit message is part of the product.
   reading this in a year needs the reasoning behind a decision, not an account
   of how it was reached.
 - **Never narrate the process.** No first-person account of what was tried,
-  what was missed, or what was learned. "The gate is scoped to the demo
-  deployment" belongs here; "I only tested two states" does not.
-- **Assistant trailers stay.** A commit written with an assistant ends with a
-  `Co-Authored-By` line naming it and a `Claude-Session` link to the session
-  that produced it. The tooling adds both and they are kept, so the authorship
-  recorded on a commit matches who wrote it. This file asked for them to be
-  stripped until 2026-09-05, while 218 commits on `main` carried them; the rule
-  now says what the history does.
+  what was missed, or what was learned.
 - **Present tense, describing the code after the change.** "Scope demo content
   to the demo deployment", not "Fixed the demo leaking".
-- **The subject names the change; it does not argue for it.** "Rewrite the
-  README overview", not "Say what Astro Rocket is before saying what is inside
-  it". No comparisons, no "not X but Y", no reasoning in the title — that is
-  what the body is for. Somebody scanning the history wants to know what each
-  commit did.
-- **Keep the subject line to 72 characters, and prefer 50.** GitHub builds a
-  pull request's title from the subject and cuts it at that length, moving what
-  is left into the description — so an over-long subject opens the pull request
-  with a fragment like "…arsing". The body is where detail belongs; it has no
-  limit.
-
-## Checks
-
-- **A check is not finished until it has failed once on purpose.** Write it,
-  run it against the broken state it exists to catch, watch it go red, then fix
-  the code and watch it go green. A check only ever run against working code is
-  an assumption with a green tick on it.
-- **Verify the path that fails, not only the path that works.** A container CI
-  job whose readiness loop ended in `sleep` passed while the container was
-  dead, and an export service with no `SITE_URL` argument shipped localhost
-  canonical tags with both build-time guards silent. Both were tested only in
-  the state where everything works.
+- **Keep the subject line to 72 characters, and prefer 50.**
 
 ## Commands
 
@@ -123,23 +102,8 @@ pnpm build        # production build — run before declaring work finished
 pnpm check        # astro check, TypeScript, ESLint and Prettier
 pnpm test         # Vitest unit tests
 pnpm fix          # apply ESLint and Prettier fixes
+pnpm sync:upstream # fetch and merge upstream updates
 ```
 
 `pnpm build` is the real test. It runs `astro check`, the content-collection
 schemas and the link validation, and it fails on problems a dev server hides.
-
-## Things that are easy to get wrong
-
-- **Content collections are schema-checked.** Frontmatter that does not match
-  `src/content.config.ts` fails the build. Read the schema before adding fields.
-- **Drafts are filtered in production only.** `draft: true` still renders in
-  `pnpm dev`, so verify with a build.
-- **A draft is unreachable.** Linking to a drafted post or project produces a
-  404 in production. Check inbound links before drafting something.
-- **The theme supports multiple languages.** Locale-prefixed routes are
-  generated automatically; do not create `src/pages/<locale>/` files by hand.
-
-## Before you finish
-
-Run `pnpm build`. Then confirm what you changed is actually visible on the page
-you changed it on — not merely that the command exited without an error.
