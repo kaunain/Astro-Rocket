@@ -229,380 +229,328 @@
   "pages": {
     "about": {
       "meta": {
-        "title": "About — Free Open-Source Astro 7 Theme",
-        "description": "What Astro Rocket is and how it's built: a free Astro 7 starter theme with 44 designed components, 8 colour themes, i18n, and dark mode."
+        "title": "About — Kaunain Ahmad | Senior Full-Stack Engineer",
+        "description": "Kaunain Ahmad is a Senior Java Full Stack Engineer with 15+ years of experience architecting enterprise backends, microservices, and modern web applications."
       },
       "hero": {
-        "badge": "About",
-        "titleLead": "Astro Rocket —",
-        "typingWords": ["Lightning-fast", "Starter theme", "44 Components", "8 Themes", "Dark Mode", "Built-in i18n"],
-        "typingWordsMobile": ["Lightning-fast", "Starter theme", "8 Themes", "Dark Mode", "Built-in i18n"],
-        "description": "A free, open-source Astro 7 starter\u00a0theme to build anything on."
+        "badge": "About Me",
+        "titleLead": "Kaunain Ahmad —",
+        "typingWords": ["Senior Engineer", "Java & Spring Boot", "Microservices", "Astro & React", "High-Traffic Systems", "15+ Years Exp"],
+        "typingWordsMobile": ["Senior Engineer", "Java & Spring", "Astro & React", "15+ Years Exp"],
+        "description": "Senior Full-Stack & Backend Engineer with 15+ years of experience delivering robust enterprise systems and modern web applications."
       },
       "whatYouGet": {
-        "badge": "What you get",
-        "heading": "Everything a website needs",
-        "lead": "The component library is the heart of the theme. Everything else is already on board.",
+        "badge": "What I bring",
+        "heading": "Enterprise Experience for Your Projects",
+        "lead": "From robust API architecture to high-performance web frontends, here is what I deliver.",
         "items": [
           {
-            "icon": "component",
-            "title": "44 designed components",
-            "description": "From buttons to hero sections: typed, accessible, consistent, and documented in a live showcase."
+            "icon": "server",
+            "title": "Scalable Backend Systems",
+            "description": "Enterprise-grade Spring Boot microservices, REST APIs, and automated batch jobs built for resilience."
           },
           {
             "icon": "layout",
-            "title": "Pages to start from",
-            "description": "Home, about, services, contact, blog, projects, and 404, fully designed and responsive, ready to make your own."
+            "title": "Modern Web Applications",
+            "description": "Fast, responsive web apps and SaaS MVPs built using Astro, React, and modern TypeScript frameworks."
           },
           {
-            "icon": "palette",
-            "title": "8 colour themes",
-            "description": "Switch the whole site's palette live from the header. Light and dark mode included."
+            "icon": "database",
+            "title": "Database & Query Optimization",
+            "description": "PostgreSQL and MySQL database modeling, query tuning, indexing, and transaction management."
           },
           {
-            "icon": "book-open",
-            "title": "Blog with table of contents",
-            "description": "MDX, RSS, tags, comments, related posts, and a scroll-spy table of contents. Write and publish."
+            "icon": "zap",
+            "title": "High Performance & Caching",
+            "description": "Low-latency systems powered by Redis caching, connection pooling, and optimized throughput."
           },
           {
-            "icon": "image",
-            "title": "Projects with galleries",
-            "description": "A portfolio section with image galleries, video slides, tags, and its own table of contents."
+            "icon": "shield-check",
+            "title": "Production Engineering & RCA",
+            "description": "Root-cause analysis, JVM memory leak debugging, and high-availability support for mission-critical systems."
           },
           {
-            "icon": "globe",
-            "title": "Full i18n, opt-in",
-            "description": "Blog, projects, navigation, forms, and 404: all localized per locale. Off by default, at zero cost when unused."
+            "icon": "cloud",
+            "title": "Cloud & Containerization",
+            "description": "Dockerized microservices, CI/CD automation, and cloud deployments across AWS and GCP."
           },
           {
-            "icon": "search",
-            "title": "Site search",
-            "description": "Fast static search (Pagefind) with a ⌘K modal: zero JavaScript until it's opened."
+            "icon": "code",
+            "title": "AI-Assisted Development",
+            "description": "Accelerating delivery, test coverage, and documentation using modern AI engineering workflows."
           },
           {
             "icon": "trending-up",
-            "title": "SEO toolkit",
-            "description": "Metadata, sitemaps, structured data, and OG images, correct out of the box."
+            "title": "SEO & Core Web Vitals",
+            "description": "Technical SEO, structured data, and top Lighthouse scores built into every web deliverable."
           },
           {
-            "icon": "server",
-            "title": "Forms & deploy",
-            "description": "Spam-protected contact and newsletter forms, and one-switch deploys to Vercel, Netlify, or Cloudflare."
+            "icon": "award",
+            "title": "15+ Years Proven Track Record",
+            "description": "Extensive enterprise experience across US healthcare insurance, high-traffic media, and ERP domains."
           }
         ]
       },
       "principles": {
-        "badge": "Design Principles",
-        "heading": "Built with intention",
-        "lead": "Every decision in Astro Rocket, from component structure to default config, is driven by the same three principles.",
+        "badge": "Engineering Principles",
+        "heading": "How I Build Software",
+        "lead": "Every project I take on is guided by three core engineering principles.",
         "items": [
-          { "icon": "zap", "title": "Performance First", "description": "Zero JavaScript by default. Every component is optimised for speed, Core Web Vitals, and lean output." },
-          { "icon": "award", "title": "Developer Experience", "description": "TypeScript throughout, sensible defaults, and a component library you can drop straight into any page." },
-          { "icon": "rocket", "title": "Modern from the Ground Up", "description": "Astro 7, Tailwind CSS 4, and a clean architecture that's easy to extend and maintain." }
+          { "icon": "zap", "title": "Reliability & Speed", "description": "Systems that scale seamlessly under load with minimal latency and high availability." },
+          { "icon": "award", "title": "Clean & Maintainable Code", "description": "Strict typing, modular architectures, and clear documentation that your team can easily maintain." },
+          { "icon": "rocket", "title": "Pragmatic Problem Solving", "description": "Choosing the right tool for the job without over-engineering or unnecessary bloat." }
         ]
       },
       "stack": {
         "badge": "Tools & Tech",
-        "title": "The Stack",
-        "description": "The technologies powering Astro Rocket, chosen for performance, great developer experience, and long-term reliability."
+        "title": "The Tech Stack",
+        "description": "Core technologies and platforms I use to build scalable, reliable software products."
       },
       "faq": {
         "badge": "Good to know",
-        "heading": "Frequently asked questions",
-        "lead": "Everything you need to know before getting started.",
+        "heading": "Frequently Asked Questions",
+        "lead": "Common questions about working together on freelance projects.",
         "cards": [
           {
-            "icon": "rocket",
-            "title": "About Astro",
+            "icon": "code-2",
+            "title": "Working Together",
             "items": [
-              { "question": "What is Astro?", "answer": "Astro is a modern web framework built for content-driven sites. It ships zero JavaScript by default — only sending what the page actually needs. The result is fast load times, excellent Core Web Vitals scores, and lean, maintainable code." },
-              { "question": "Why build with Astro?", "answer": "Astro is the right tool for content-heavy sites: minimal JavaScript, clean HTML, great SEO out of the box, and a developer experience that stays out of your way. It's lean, purposeful, and built to last." },
-              { "question": "What can I build with Astro Rocket?", "answer": "Portfolios, business sites, marketing pages, blogs, documentation sites — any content-driven project. Astro Rocket gives you the structure, components, and defaults to hit the ground running." },
-              { "question": "Is Astro Rocket listed on the official Astro themes directory?", "answer": "Yes. <a href=\"https://astro.build/themes/details/astro-rocket/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">Astro Rocket</a> is listed on the official Astro themes directory as a free, production-ready theme." },
-              { "question": "Will Astro Rocket keep up with new Astro releases?", "answer": "Yes. Astro Rocket is actively maintained and updated to track new Astro releases. Follow along on the blog or watch the GitHub repository for updates." }
+              { "question": "What type of projects do you take on?", "answer": "I work on full-stack web applications, Spring Boot backend systems, REST API development, database optimization, and high-performance Astro/React websites." },
+              { "question": "What is your availability for freelance work?", "answer": "I am available for contract roles, freelance projects, and technical consulting. Both milestone-based and monthly retainer arrangements are welcome." },
+              { "question": "How do we communicate during a project?", "answer": "I communicate via Slack, Email, and Google Meet/Zoom with regular async updates, staging links, and clear milestone check-ins." },
+              { "question": "How do you handle time zones?", "answer": "I am based in New Delhi (IST) and have 15+ years of experience working seamlessly with clients across the US, Europe, and Asia." }
             ]
           },
           {
-            "icon": "code-2",
-            "title": "Using the theme",
+            "icon": "shield-check",
+            "title": "Delivery & Quality",
             "items": [
-              { "question": "Is it free to use?", "answer": "Yes, completely free. Astro Rocket is MIT licensed — use it for personal and commercial projects, no attribution required." },
-              { "question": "How do I switch themes?", "answer": "Change a single line in your config. Astro Rocket ships with 8 hand-crafted colour themes — swap between them instantly without touching a line of CSS." },
-              { "question": "Does it support TypeScript?", "answer": "Yes, TypeScript is used throughout. All components, configs, and utilities are fully typed." },
-              { "question": "How do I add my own language for i18n?", "answer": "Astro Rocket's i18n is config-driven. Add your locale to the i18n config file, create a matching translation file, and the routing and UI adapt automatically." },
-              { "question": "Where do I report bugs or suggest features?", "answer": "Open an issue or start a discussion on the <a href=\"https://github.com/hansmartensdev/astro-rocket\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">GitHub repository</a>. Contributions and feedback are always welcome." }
+              { "question": "Do you provide fixed-price quotes?", "answer": "Yes. Once we discuss your requirements, I provide a clear scope, estimated timeline, and fixed price or milestone structure." },
+              { "question": "Do I get full ownership of the code?", "answer": "Yes, 100%. All source code, repositories, and documentation belong completely to you from day one." },
+              { "question": "Do you provide post-launch support?", "answer": "Yes, I offer ongoing maintenance, bug fixes, and feature enhancements after launch." }
             ]
           }
         ]
       },
       "openSource": {
-        "badge": "Open Source",
-        "heading": "Built in the open",
-        "description": "Astro Rocket is free, open source, and MIT licensed. Browse the source, open issues, submit PRs, or just clone it and build something great.",
+        "badge": "Open Source & Projects",
+        "heading": "Building in the Open",
+        "description": "Explore my open-source projects, architecture breakdowns, and technical articles on GitHub and live demos.",
         "button": "View on GitHub",
         "cards": [
-          { "title": "Made by Hans Martens Dev", "text": "Astro Rocket was designed and built by <a href=\"https://hansmartens.dev\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">Hans Martens Dev</a> — an Astro theme developer in Veghel, the Netherlands." },
-          { "title": "MIT License", "text": "Free to use in personal and commercial projects. No attribution required, though a star on GitHub is always appreciated." },
-          { "title": "Actively maintained", "text": "The theme is kept up to date with new Astro releases and regularly improved based on community feedback." }
+          { "title": "Fin-Track Wealth Platform", "text": "Production-grade microservices wealth management platform built with Java, Spring Boot, React, and PostgreSQL." },
+          { "title": "TheIslah Platform", "text": "High-performance content platform and utilities built with Astro, modern static deployments, and clean SEO." },
+          { "title": "Technical Contributions", "text": "Active contributions to open-source developer tooling, starter templates, and AI workflows." }
         ]
       },
       "cta": {
-        "badge": "Get started",
-        "heading": "Ready to build?",
-        "description": "Clone Astro Rocket, pick a theme, and launch your next project in minutes.",
-        "button": "Get Started"
+        "badge": "Get in touch",
+        "heading": "Have a project in mind?",
+        "description": "Send a message about what you're building. I read every inquiry and reply within one business day.",
+        "button": "Start a Project"
       }
     },
     "services": {
       "meta": {
-        "title": "Services — Web Design, Development & Optimisation",
-        "description": "Freelance web design, development, and optimisation: sleek, lightning-fast custom Astro websites. A free first talk, one clear proposal, one fixed price."
+        "title": "Services — Full-Stack Web & Backend Engineering",
+        "description": "Freelance full-stack web development, Spring Boot backend systems, microservices, and database optimization. Reliable delivery for startups and businesses."
       },
-      "includedLabel": "What you get",
+      "includedLabel": "What's included",
       "hero": {
-        "badge": "Services",
-        "titleLead": "Web design, development,",
-        "titleHighlight": "and optimisation",
-        "description": "Three services, one product: a sleek, lightning-fast custom Astro website you're proud to put your name on.",
-        "jumpLabels": ["Web design", "Web development", "Web optimisation"]
+        "badge": "Freelance Services",
+        "titleLead": "Full-stack development,",
+        "titleHighlight": "backend systems & APIs",
+        "description": "Enterprise-grade engineering for startups and businesses: fast web applications, scalable Spring Boot backends, and rock-solid APIs.",
+        "jumpLabels": ["Full-Stack Web", "Backend & APIs", "Performance Tuning"]
       },
       "design": {
-        "badge": "Design",
-        "heading": "Web design",
+        "badge": "Full-Stack Web",
+        "heading": "Web Apps & MVPs",
         "paragraphs": [
-          "Web design is how your website looks and feels: the layout, the colours, the images, and the way visitors find their way around.",
-          "I design every website around your business — your brand, your content, and the customers you want to reach — so it makes a strong first impression and guides people straight to what matters. Clean, modern, and made to work on every screen, from a desktop monitor to a phone."
+          "I build high-performance web applications and SaaS MVPs from the ground up using modern technologies like Astro, React, and TypeScript.",
+          "Every web project is built with clean architecture, responsive layouts, fast load times, and search engine optimization so your business makes a strong impression."
         ],
         "included": [
-          {
-            "lead": "A design that's yours",
-            "text": "shaped around your business, your brand, and the customers you want to reach."
-          },
-          {
-            "lead": "A strong first impression",
-            "text": "a clean, modern look that shows people who you are the moment your page opens."
-          },
-          {
-            "lead": "Clear navigation",
-            "text": "a layout that guides visitors straight to what matters to them."
-          },
-          {
-            "lead": "A design for every screen",
-            "text": "looks and works beautifully on phone, tablet, and desktop."
-          },
-          {
-            "lead": "Your content at its best",
-            "text": "your words and images given a layout that makes them easy to read and good to look at."
-          }
+          { "lead": "Custom Web Applications", "text": "Tailored for your business workflows and target audience." },
+          { "lead": "Lightning-Fast Speed", "text": "Built with Astro & React for minimal JS and top Core Web Vitals." },
+          { "lead": "SEO & AI-Search Ready", "text": "Structured metadata, OpenGraph tags, and sitemaps built-in." },
+          { "lead": "Mobile-First Design", "text": "Flawless user experience across mobile, tablet, and desktop." },
+          { "lead": "Clean Source Code", "text": "Full code ownership and easy maintenance." }
         ],
-        "ctaLabel": "Discuss a design project"
+        "ctaLabel": "Discuss a web project"
       },
       "development": {
-        "badge": "Development",
-        "heading": "Web development",
+        "badge": "Backend Engineering",
+        "heading": "Spring Boot & APIs",
         "paragraphs": [
-          "Web development is the building of your website: turning the design into the code that runs in your visitor's browser.",
-          "I build with Astro, a modern framework trusted for some of the fastest websites online. That makes your site quick to load, safe, and easy to look after for years to come. And it's yours from day one, with the code, the domain, and the hosting all in your name."
+          "Robust, secure, and scalable backend architecture powered by Java, Spring Boot, and Microservices.",
+          "Whether you need high-throughput REST APIs, automated batch jobs, payment integrations, or third-party webhooks, I build systems engineered for reliability."
         ],
         "included": [
-          {
-            "lead": "A lightning-fast website",
-            "text": "built with Astro, the framework behind some of the fastest websites online."
-          },
-          {
-            "lead": "A secure, reliable website",
-            "text": "one that stays safe and keeps working, year after year."
-          },
-          {
-            "lead": "Full ownership",
-            "text": "the code, the domain, and the hosting all in your name from day one."
-          },
-          {
-            "lead": "Care after launch",
-            "text": "your website kept updated and secure with the monthly care plan, while you run your business."
-          },
-          {
-            "lead": "Room to grow",
-            "text": "space to add new pages and features whenever your business needs them."
-          }
+          { "lead": "Spring Boot Microservices", "text": "Modular, resilient services with clean separation of concerns." },
+          { "lead": "RESTful API Design", "text": "Versioned, secure, and well-documented APIs." },
+          { "lead": "Batch Processing & Automation", "text": "Scheduled jobs, data pipelines, and report generation." },
+          { "lead": "Authentication & Security", "text": "JWT, OAuth2, and role-based access control." },
+          { "lead": "Third-Party Integrations", "text": "Payment gateways, SMS, email providers, and webhooks." }
         ],
-        "ctaLabel": "See recent projects"
+        "ctaLabel": "Discuss backend architecture"
       },
       "performance": {
-        "badge": "Optimisation",
-        "heading": "Web optimisation",
+        "badge": "Optimization",
+        "heading": "Database & Tuning",
         "paragraphs": [
-          "Web optimisation is the work that makes your website perform: loading quickly, ranking well in search, and working for everyone.",
-          "I build speed, SEO, and accessibility in from the very first line, not as an afterthought. That means your website is easy for Google to find and understand, opens fast for every visitor, and can be used by everyone who lands on it."
+          "Eliminating bottlenecks, reducing database query times, and scaling your system to handle peak traffic effortlessly.",
+          "I diagnose slow endpoints, tune PostgreSQL/MySQL queries, set up Redis caching layers, and fix memory issues to ensure high availability."
         ],
         "included": [
-          {
-            "lead": "A website Google and AI can find",
-            "text": "built so search engines and AI assistants can read, understand, and recommend your pages."
-          },
-          {
-            "lead": "Speed on every device",
-            "text": "pages that stay quick, even on a phone or a slower connection."
-          },
-          {
-            "lead": "A website for everyone",
-            "text": "accessible for every visitor, whatever their device or ability."
-          },
-          {
-            "lead": "High performance scores",
-            "text": "strong marks on Google's own speed and quality checks (Lighthouse)."
-          },
-          {
-            "lead": "Optimisation from day one",
-            "text": "speed, SEO, and accessibility built in from the very first line."
-          }
+          { "lead": "SQL Query Optimization", "text": "Indexing, execution plan analysis, and query refactoring." },
+          { "lead": "Caching with Redis", "text": "In-memory caching for sub-millisecond response times." },
+          { "lead": "JVM & Memory Profiling", "text": "Fixing memory leaks and optimizing thread concurrency." },
+          { "lead": "High-Availability Architecture", "text": "Connection pooling, load balancing, and failure resilience." },
+          { "lead": "Code Audits & Refactoring", "text": "Modernizing legacy codebases with comprehensive tests." }
         ],
-        "ctaLabel": "Start a project"
+        "ctaLabel": "Request a performance audit"
       },
       "process": {
         "badge": "How it works",
-        "heading": "How a project runs",
-        "lead": "From your first message to a live website.",
+        "heading": "Clear & Collaborative Process",
+        "lead": "From discovery call to production release.",
         "steps": [
-          { "title": "First contact", "description": "You send a message through the contact form. I reply within a working day, and we plan a free, informational talk about what you need. No obligations." },
-          { "title": "Proposal", "description": "After our talk you get one clear document: what I'll build, when it's ready, and the fixed price. You decide with everything on the table." },
-          { "title": "Design & build", "description": "I work in short cycles. You follow the progress on a staging link, and you see your website take shape." },
-          { "title": "Launch & support", "description": "Your website goes live on your own domain and hosting, in your name. Afterwards I stay reachable, and there's a monthly care plan if you want regular updates." }
+          { "title": "1. Discovery", "description": "We discuss your project goals, technical requirements, and timeline. Free initial consultation with no obligation." },
+          { "title": "2. Proposal & Scope", "description": "You receive a clear scope document with defined deliverables, milestones, and fixed pricing." },
+          { "title": "3. Iterative Build", "description": "Development in short sprint cycles with live staging previews and regular async updates." },
+          { "title": "4. Launch & Support", "description": "Deployment to your cloud environment, complete code handover, and ongoing support." }
         ]
       },
       "faq": {
         "badge": "Questions",
-        "heading": "Questions and answers",
-        "lead": "The things clients ask before we start.",
+        "heading": "Questions and Answers",
+        "lead": "Common questions before starting a project.",
         "cards": [
           {
             "icon": "tag",
-            "title": "Before we start",
+            "title": "Pricing & Timelines",
             "items": [
-              { "question": "What does a website cost?", "answer": "Every project gets one fixed price, agreed before we start. No hourly billing, no surprises afterwards. The free talk — and the free check, if there's already a website — tells me what your project needs, and you get the price in one clear proposal." },
-              { "question": "How long does a project take?", "answer": "That depends on the size of the website. The proposal names the timeline together with the price, so you know both before we start." },
-              { "question": "What happens with my current website?", "answer": "It stays online until the new one is ready. Your content, your web address, and your Google rankings come along. I check your current website before our first talk, so you get clear answers from the start." },
-              { "question": "Do I need to arrange hosting or a domain?", "answer": "No. I set up the hosting and the domain for you, in your own name. If you already have a domain, we simply keep it." },
-              { "question": "Do we need to meet in person?", "answer": "It's not needed. Most projects run entirely by phone, video, and email. I work with clients worldwide, and time zones are rarely a problem." }
+              { "question": "How do you charge for projects?", "answer": "I offer both fixed-price project quotes and hourly/monthly retainer arrangements depending on your preference and scope clarity." },
+              { "question": "How quickly can you start?", "answer": "Depending on current capacity, I can usually begin new client engagements within 1 to 2 weeks." },
+              { "question": "Do you work with non-technical founders?", "answer": "Yes! I explain technical choices in plain business terms and guide you through hosting, domain setup, and product decisions." }
             ]
           },
           {
             "icon": "user",
-            "title": "Working with me",
+            "title": "Working Together",
             "items": [
-              { "question": "Are you a company or agency?", "answer": "I'm a one-person business: a freelancer, not an agency. You work directly with the person doing the work, from the first talk to the finished website. No sales team, no account managers, no handoffs." },
-              { "question": "Can I change the website myself after launch?", "answer": "You can simply send me your changes, and the monthly care plan exists exactly for that. If you want to edit the website yourself, say so in the first talk and I set the site up for it." },
-              { "question": "Do you also build webshops?", "answer": "No. Big online shops are the one thing I don't build. Everything else that needs a custom Astro website, I build: tell me in the first talk what you have in mind, and I'll be honest about whether I'm the right builder for it." },
-              { "question": "Is the website really mine?", "answer": "Completely. The domain, the hosting, and the code are in your name from day one. If you ever want to move on, you take everything with you: you're never locked in." },
-              { "question": "What happens if something breaks after launch?", "answer": "Very little can break: the website has no plugins and no database to fail. And I stay reachable after launch; for regular updates and monitoring there is the monthly care plan." }
+              { "question": "Will I work directly with you?", "answer": "Yes. You work 100% directly with me — a senior engineer with 15+ years experience, without junior handoffs." },
+              { "question": "Can you join an existing team as a contractor?", "answer": "Yes. I have extensive experience integrating into distributed Agile teams and enterprise engineering workflows." },
+              { "question": "Do you provide NDAs?", "answer": "Absolutely. I am happy to sign non-disclosure agreements before reviewing proprietary project details." }
             ]
           }
         ]
       },
       "cta": {
         "badge": "Let's talk",
-        "heading": "Let's talk about what you need",
-        "description": "The first talk is free and informative, with no obligations: by phone, video, or email. You get honest answers, and after the talk one clear proposal with a timeline and a fixed price.",
+        "heading": "Ready to build something great?",
+        "description": "Send a short message about your project requirements and let's discuss how we can bring it to life.",
         "primary": "Send a message",
-        "secondary": "More about me"
+        "secondary": "View my projects"
       }
     },
     "contact": {
       "meta": {
-        "title": "Contact",
-        "description": "Starting something new? I design and build new websites from scratch — tell me about your project and I'll get back to you within 1 business day."
+        "title": "Contact — Kaunain Ahmad",
+        "description": "Have a freelance project inquiry or technical consulting opportunity? Reach out directly and get a response within 1 business day."
       },
       "hero": {
-        "badge": "Start a project",
+        "badge": "Let's collaborate",
         "titleLead": "Tell me about your",
-        "titleHighlight": "new project",
-        "description": "I'd love to hear from you. Send a message with the form below, or reach out on one of the other channels below."
+        "titleHighlight": "project or idea",
+        "description": "Have a project inquiry, contract opportunity, or backend challenge? Send a message below."
       },
-      "formTitle": "Project details",
-      "channelsTitle": "Other channels",
-      "channelsSubtitle": "Prefer a direct channel? Pick whichever works best.",
+      "formTitle": "Send a Message",
+      "channelsTitle": "Direct Channels",
+      "channelsSubtitle": "Prefer direct communication? Connect via email or social channels.",
       "emailLabel": "Email",
-      "emailNote": "Drop us a line",
-      "socialNote": "Follow along",
+      "emailNote": "Direct email address",
+      "socialNote": "Professional networks",
       "basedIn": "Based in {country}"
     },
     "home": {
       "meta": {
-        "title": "Free open-source Astro 7 theme",
-        "description": "A free, fast Astro 7 starter theme to build anything on: 44 designed components, 8 colour themes, dark mode, and built-in i18n."
+        "title": "Kaunain Ahmad — Senior Full-Stack & Backend Engineer",
+        "description": "Senior Full-Stack & Backend Engineer with 15+ years experience building scalable Java Spring Boot microservices, high-performance web apps, and modern cloud solutions."
       },
       "hero": {
-        "badge": "Available for new projects",
-        "titleLine1": "Astro Rocket —",
-        "titleLine2": "Web Designer",
-        "titleLine3": "& Developer",
-        "description": "A free, lightning-fast Astro 7 starter theme to build anything on: 44 designed components, 8 colour themes, and dark mode.",
-        "descriptionMobile": "A free, lightning-fast Astro 7 starter theme to build anything on: 44 designed components and 8 colour themes.",
-        "github": "Get it on GitHub",
-        "getStarted": "Get started"
+        "badge": "Available for freelance projects & contracts",
+        "titleLine1": "Kaunain Ahmad —",
+        "titleLine2": "Senior Full-Stack",
+        "titleLine3": "& Backend Engineer",
+        "description": "15+ years architecting enterprise Java, Spring Boot microservices, high-performance web apps, and scalable APIs for businesses worldwide.",
+        "descriptionMobile": "15+ years building scalable Java/Spring Boot backends, modern web applications, and APIs.",
+        "github": "View GitHub",
+        "getStarted": "Start a Project"
       },
       "services": {
         "badge": "What I do",
-        "heading": "Design, build, optimise",
-        "lead": "Every project gets all three services.",
-        "learnMore": "Learn more",
+        "heading": "Engineering Services",
+        "lead": "Full-stack web apps, scalable backend systems, and performance optimization.",
+        "learnMore": "View services",
         "cards": [
-          { "icon": "layout", "title": "Web Design", "description": "Interfaces that feel obvious. Layouts shaped around your content, your brand, and how people actually read on a screen." },
-          { "icon": "code", "title": "Web Development", "description": "Sites built to last. Astro, Tailwind, and a clean architecture: fast on day one, easy to maintain on day 500." },
-          { "icon": "trending-up", "title": "Web Optimisation", "description": "SEO, Core Web Vitals, and accessibility, built in from day one so your site ranks, loads well, and works for every visitor." }
+          { "icon": "layout", "title": "Web Apps & MVPs", "description": "Modern, fast web applications and SaaS MVPs built with Astro, React, and clean frontend architecture." },
+          { "icon": "server", "title": "Backend & Microservices", "description": "High-throughput Spring Boot REST APIs, microservices, and reliable batch processing pipelines." },
+          { "icon": "trending-up", "title": "Database & Tuning", "description": "PostgreSQL/MySQL query optimization, Redis caching layers, and high-availability architecture." }
         ]
       },
       "workWithMe": {
-        "badge": "Work with me",
-        "heading": "Let's build your website",
+        "badge": "Why work with me",
+        "heading": "Enterprise Quality, Freelance Agility",
         "lead": "What you get when we work together.",
         "cards": [
-          { "icon": "palette", "title": "Custom design", "description": "Designed around your business, your content, and your customers." },
-          { "icon": "zap", "title": "A lightning-fast website", "description": "Pages that open instantly, on every phone and every connection." },
-          { "icon": "search", "title": "Found by Google and AI", "description": "Every page built so search engines and AI assistants read it cleanly and customers can find you." },
-          { "icon": "shield-check", "title": "Zero maintenance", "description": "Kept up to date and secure with the care plan, so you can focus on your business." }
+          { "icon": "award", "title": "15+ Years Experience", "description": "Deep expertise across high-concurrency portals, claims engines, and enterprise backends." },
+          { "icon": "zap", "title": "Production-Grade Code", "description": "Robust architecture, strict typing, and comprehensive test coverage from day one." },
+          { "icon": "search", "title": "SEO & Performance Built-In", "description": "Fast loading times, top Core Web Vitals, and clean metadata for search engines and AI." },
+          { "icon": "shield-check", "title": "Direct Communication", "description": "One dedicated senior engineer from discovery to production launch. No agency overhead." }
         ],
-        "cta": "Read my services page"
+        "cta": "Explore all services"
       },
       "portfolio": {
         "badge": "Selected work",
-        "heading": "Projects I've built",
-        "lead": "A selection of recent work.",
+        "heading": "Featured Projects",
+        "lead": "A selection of recent projects and platforms.",
         "viewAll": "View all projects"
       },
       "testimonials": {
-        "badge": "Testimonials",
-        "heading": "What clients say",
-        "lead": "Real words from finished projects.",
+        "badge": "Client Feedback",
+        "heading": "Client Feedback & Results",
+        "lead": "What clients and engineering leaders say.",
         "items": [
-          { "quote": "The new site launched on time and hit every goal we set. Performance improved dramatically — load times dropped and the feedback from our customers has been overwhelmingly positive.", "name": "Alex Morgan", "role": "Founder, Bright Studio" },
-          { "quote": "Straightforward from first conversation to final handover. The right questions were asked, we were kept in the loop throughout, and the end result exceeded what we imagined. Would recommend without hesitation.", "name": "Sarah Chen", "role": "CEO, Luma Agency" }
+          { "quote": "Kaunain delivered our backend services with exceptional quality and speed. His deep expertise in Spring Boot and database tuning resolved our scaling bottlenecks seamlessly.", "name": "Engineering Lead", "role": "Enterprise Healthcare Client" },
+          { "quote": "Consistently reliable, proactive, and technically sharp. Kaunain built our web modules with great attention to detail and performance.", "name": "Product Manager", "role": "Digital Media Portal" }
         ]
       },
       "aboutTeaser": {
         "badge": "About me",
-        "headingLine1": "Designer, developer,",
-        "headingLine2": "and blogger.",
-        "para1WithLocation": "Sixteen years of hands-on experience, based in {location} and available for clients worldwide. I build with Astro because it aligns with how I think about the web: lean, purposeful, and built to last.",
-        "para1NoLocation": "Sixteen years of hands-on experience and available for clients worldwide. I build with Astro because it aligns with how I think about the web: lean, purposeful, and built to last.",
-        "para2": "On the blog, I share the ideas and decisions that shape my work.",
-        "moreAboutMe": "More about me",
-        "statsIntro": "A few things about me.",
-        "stat1": "16 Years Experience",
-        "stat2": "Building with Astro",
-        "stat3": "Working worldwide",
+        "headingLine1": "15+ years building",
+        "headingLine2": "scalable software.",
+        "para1WithLocation": "Senior Full-Stack & Backend Engineer based in {location}, available for freelance contracts and consulting worldwide. Specializing in Java, Spring Boot, Microservices, and modern web frameworks.",
+        "para1NoLocation": "Senior Full-Stack & Backend Engineer available for freelance contracts and consulting worldwide. Specializing in Java, Spring Boot, Microservices, and modern web frameworks.",
+        "para2": "I focus on clean architecture, backend reliability, and pragmatic engineering that delivers real business value.",
+        "moreAboutMe": "Read more about me",
+        "statsIntro": "Key highlights:",
+        "stat1": "15+ Years Experience",
+        "stat2": "Spring Boot & Astro",
+        "stat3": "Worldwide Clients",
         "basedIn": "Based in"
       },
       "blog": {
-        "badge": "From the blog",
-        "heading": "Featured",
+        "badge": "Articles",
+        "heading": "Latest Notes",
         "viewAll": "View all posts"
       },
       "cta": {
         "badge": "Let's talk",
-        "heading": "Let's talk about what you need",
-        "description": "The first talk is free and informative, with no obligations. And from the first conversation to the final delivery, it's me.",
-        "primary": "Send a message",
+        "heading": "Have a project in mind?",
+        "description": "Send a message about what you're building. I read every inquiry and reply within one business day.",
+        "primary": "Start a Project",
         "secondary": "More about me"
       }
     }

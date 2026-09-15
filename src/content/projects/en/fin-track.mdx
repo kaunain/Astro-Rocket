@@ -1,0 +1,33 @@
+---
+title: "Fin-Track Wealth Management Platform"
+description: "Cloud-native microservices platform for wealth management across Stocks, Mutual Funds, ETFs, and NPS with automated portfolio analytics."
+url: "https://portfolio.fincz.com"
+repo: "https://github.com/kaunain/fincz-track"
+tags: ["Java", "Spring Boot", "Microservices", "PostgreSQL", "React", "Docker"]
+featured: true
+order: 1
+year: 2025
+role: "Lead Full-Stack & Backend Architect"
+services: ["Microservices Architecture", "API Gateway", "Analytics Engine"]
+meta: ["Cloud-Native", "Docker", "JWT Auth", "PostgreSQL"]
+locale: "en"
+---
+
+## Project Overview
+
+Fin-Track is a production-grade personal wealth management platform designed to unify investment tracking across multiple asset classes — including Stocks, Mutual Funds, ETFs, and National Pension Scheme (NPS).
+
+The objective was to build a secure, high-performance financial tracking system with real-time portfolio analytics, automated reporting, and modular microservices.
+
+## Architecture & Technical Highlights
+
+- **Microservices Architecture:** Designed domain-driven backend microservices with clear separation between Authentication (JWT/OAuth2), Market Data ingestion, Portfolio Analytics, and Notifications.
+- **API Gateway & Routing:** Implemented centralized routing, rate limiting, and request filtering for all internal microservices.
+- **Data Persistence & Caching:** Utilized PostgreSQL with optimized relational schemas and index tuning for complex multi-asset transaction calculations, backed by Redis for frequent lookup caching.
+- **Containerization & CI/CD:** Fully containerized with Docker and Docker Compose for consistent local development and automated CI/CD deployment pipelines.
+- **Modern Frontend:** Responsive, clean dashboard interface built with React and Tailwind CSS for interactive asset visualization.
+
+## Key Outcomes
+
+- Sub-50ms API response times for complex portfolio summary queries.
+- Modular architecture allowing new financial asset types and broker feeds to be added without impacting existing services.

@@ -115,19 +115,19 @@ export interface SiteConfig {
 const siteConfig: SiteConfig = {
   name: 'Kaunain Ahmad',
   description:
-    'Java developer focused on reliable backend systems, enterprise debugging, and AI-assisted software development.',
-  tagline: 'Java developer focused on reliable backend systems and AI-assisted software development',
-  footerNote: 'Built with Astro Rocket',
+    'Senior Full-Stack & Backend Engineer with 15+ years of experience architecting enterprise Java, Spring Boot microservices, high-performance web apps, and scalable APIs.',
+  tagline: 'Senior Full-Stack & Backend Engineer · 15+ Years Building Scalable Systems',
+  footerNote: 'Available for freelance projects & contracts',
   url: SITE_URL || 'https://kaunain.dev',
   ogImage: '/og/default.png',
   author: 'Kaunain Ahmad',
   email: 'hello@kaunain.dev',
   address: {
     street: '',
-    city: 'Eindhoven',
-    state: '',
+    city: 'New Delhi',
+    state: 'Delhi',
     zip: '',
-    country: 'the Netherlands',
+    country: 'India',
   },
   socialLinks: [
     'https://github.com/kaunain',
